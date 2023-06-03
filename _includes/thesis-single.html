@@ -1,0 +1,18 @@
+{% include base_path %}
+
+<div style="clear: both;">
+  <article class="publication__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="publication__item-text">
+      <h2 class="publication__item-title" itemprop="headline">
+        {{ publication.title | markdownify }}
+      </h2>
+      <p style="margin-top: -2em;">{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+      <p style="margin-top: -1em;">{{ publication.venue | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+      <p style="margin-top: -1em;">
+        {% for link in publication.links %}
+          {{ link | markdownify | remove: '<p>' | remove: '</p>'}}
+        {% endfor %}
+      </p>
+    </div>
+  </article>
+</div>
