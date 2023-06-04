@@ -6,12 +6,14 @@
   margin-bottom: 2em;
 
   @include breakpoint($medium) {
-    @include span(12 of 12);
+    width: span(12 of 12);
+    //@include span(12 of 12);
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    width: span(10 of 12 last);
+    //@include span(10 of 12 last);
+    //@include prefix(0.5 of 12);
   }
 
   a {
@@ -21,7 +23,7 @@
 }
 
 .publication__item {
-  font-size: .85em;
+  font-size: .73em;
 }
 
 
@@ -56,9 +58,13 @@
   overflow: hidden;
   width:30%; 
   float: left;
-  height: 120px;
+  height: 150px;
+  background-color:     white;
   img {
-    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

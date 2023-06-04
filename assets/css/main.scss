@@ -8,30 +8,5 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-//@import "vendor/breakpoint/breakpoint"; // media query mixins
-//@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
-
-//@import "reset";
-//@import "base";
-
-//@import "animations";
-//@import "tables";
-//@import "buttons";
-//@import "notices";
-//@import "masthead";
-//@import "navigation";
-
-//@import "forms";
-
-@import "page";
-@import "archive";
 @import "publication";
-@import "sidebar";
-
-@import "vendor/font-awesome/font-awesome";
-//@import "vendor/magnific-popup/magnific-popup";
-
 @import "timeline";
-@import "sg";
