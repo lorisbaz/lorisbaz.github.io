@@ -202,10 +202,7 @@ papers:
     venue: "Pattern Recognition Letters (PRL), 2012"
     teaser: AHPE_PRL.png
     links:
-      - "[Project](/caviar4reid.html){: .btn .btn--success}"
       - "[PDF](/papers/proceedings/Bazzanietal_PRL11.pdf){: .btn .btn--info}"
-      - "[Video](https://www.youtube.com/watch?v=wNkbwCgxJ6o){: .btn .btn--inverse}"
-      - "[Dataset](/datasets/CAVIAR4REID.zip){: .btn .btn--inverse}"
   - title: "Learning attentional policies for object tracking and recognition in video with deep networks"
     authors: "**L. Bazzani**, N. de Freitas, H. Larochelle, V. Murino, J-A Ting"
     venue: "The 30th International Conference on Machine Learning (ICML), 2011"
