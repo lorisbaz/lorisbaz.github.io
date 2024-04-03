@@ -1,5 +1,13 @@
 # Publications on home page
 papers:
+  - title: "ViewFusion: Towards Multi-View Consistency via Interpolated Denoising"
+    authors: "X. Yang, Y. Zuo, S. Ramasinghe, **L. Bazzani**, G. Avraham, A. van den Hengel"
+    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
+    teaser: cvpr2024.png
+    links:
+      - "[Project](https://wi-sc.github.io/ViewFusion.github.io/){: .btn .btn--success}"
+      - "[PDF](https://arxiv.org/pdf/2402.18842.pdf){: .btn .btn--info}"
+      - "[Code](https://github.com/Wi-sc/ViewFusion){: .btn .btn--warning}"
   - title: "iEdit: Localised Text-guided Image Editing with Weak Supervision"
     authors: "R. Bodur, E. Gundogdu, B. Bhattarai, T-K Kim, M. Donoser, **L. Bazzani**"
     venue: "Arxiv, 2023"
