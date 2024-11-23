@@ -1,5 +1,12 @@
 # Publications on home page
 papers:
+  - title: "LatteCLIP: Unsupervised CLIP Fine-Tuning via LMM-Synthetic Texts"
+    authors: "A. Cao, M. Jaritz, M. Guillaumin, R. de Charette, **L. Bazzani**"
+    venue: "In IEEE Winter Conference on Applications of Computer Vision (WACV), 2025"
+    teaser: wacv2025.png
+    links:
+      - "[PDF](https://arxiv.org/pdf/2410.08211){: .btn .btn--info}"
+      - "[Code](https://github.com/astra-vision/LatteCLIP){: .btn .btn--warning}"
   - title: "ViewFusion: Towards Multi-View Consistency via Interpolated Denoising"
     authors: "X. Yang, Y. Zuo, S. Ramasinghe, **L. Bazzani**, G. Avraham, A. van den Hengel"
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
@@ -10,12 +17,12 @@ papers:
       - "[Code](https://github.com/Wi-sc/ViewFusion){: .btn .btn--warning}"
   - title: "iEdit: Localised Text-guided Image Editing with Weak Supervision"
     authors: "R. Bodur, E. Gundogdu, B. Bhattarai, T-K Kim, M. Donoser, **L. Bazzani**"
-    venue: "Arxiv, 2023"
+    venue: "In Computer Vision and Pattern Recognition (CVPR) Workshops, 2024"
     teaser: iEdit.png
     links:
       - "[PDF](https://arxiv.org/abs/2305.05947){: .btn .btn--info}"
   - title: "Contrastive Language-Action Pre-training for Temporal Localization"
-    authors: "M. Xu, E. Gundogdu, M. Lapin, B. Ghanem, M. Donoser, L. Bazzani"
+    authors: "M. Xu, E. Gundogdu, M. Lapin, B. Ghanem, M. Donoser, **L. Bazzani**"
     venue: "Arxiv, 2022"
     teaser: CLAP.png
     links:
