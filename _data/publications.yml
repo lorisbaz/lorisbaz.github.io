@@ -1,5 +1,11 @@
 # Publications on home page
 papers:
+  - title: "Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval"
+    authors: "Z. Wang, S. Ramasinghe, C. Xu, J. Monteil, **L. Bazzani**, T. Ajanthan"
+    venue: "In International Conference on Computer Vision (ICCV), 2025"
+    teaser: iccv2025.png
+    links:
+      - "[PDF](https://arxiv.org/abs/2411.17490){: .btn .btn--info}"
   - title: "LatteCLIP: Unsupervised CLIP Fine-Tuning via LMM-Synthetic Texts"
     authors: "A. Cao, M. Jaritz, M. Guillaumin, R. de Charette, **L. Bazzani**"
     venue: "In IEEE Winter Conference on Applications of Computer Vision (WACV), 2025"
