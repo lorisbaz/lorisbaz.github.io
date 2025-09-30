@@ -48,7 +48,7 @@ papers:
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021"
     teaser: cvpr2021.png
   - title: "Localized Triplet Loss for Fine-Grained Fashion Image Retrieval"
-    authors: "A. D'Innocente, N. Garg, Y. Zhang, L. Bazzani, M. Donoser;"
+    authors: "A. D'Innocente, N. Garg, Y. Zhang, **L. Bazzani**, M. Donoser"
     venue: "In Computer Vision and Pattern Recognition (CVPR) Workshops, 2021"
     teaser: wCVPR2021.png
     links:
