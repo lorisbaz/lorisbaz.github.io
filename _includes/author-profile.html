@@ -31,6 +31,22 @@
         </li>
       {% endif %}
 
+      {% if author.cv %}
+        <li><a href="{{ author.cv }}"><i class="fa fa-fw fa-file-pdf" aria-hidden="true"></i> CV </a></li>
+      {% endif %}
+
+      {% if author.linkedin %}
+        <li>
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.scholar %}
+        <li><a href="https://scholar.google.com/citations?user={{ author.scholar }}&hl=en"><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      {% endif %}
+
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
@@ -76,14 +92,6 @@
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i><span class="label">Facebook</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.linkedin %}
-        <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
       {% endif %}
@@ -238,12 +246,6 @@
             <i class="fab fa-fw fa-vine" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
           </a>
         </li>
-      {% endif %}
-      {% if author.scholar %}
-        <li><a href="https://scholar.google.com/citations?user={{ author.scholar }}&hl=en"><i class="fa fa-fw fa-google" aria-hidden="true"></i> Google Scholar</a></li>
-      {% endif %}
-      {% if author.cv %}
-        <li><a href="{{ author.cv }}"><i class="fa fa-fw fa-cv" aria-hidden="true"></i> CV </a></li>
       {% endif %}
 
       {% include author-profile-custom-links.html %}

@@ -1,5 +1,12 @@
 # Publications on home page
 papers:
+  - title: "Med-MMFL: A Multimodal Federated Learning Benchmark in Healthcare"
+    authors: "A. Chhetri, B. Niroula, P. Shrestha, Y. R. Shrestha, L. A. Anderson, P. K. Gyawali, **L. Bazzani**, B. Bhattarai."
+    venue: "Arxiv, 2026"
+    teaser: mmfed.png
+    links:
+      - "[PDF](https://arxiv.org/abs/2602.04416){: .btn .btn--info}"
+      - "[Code](https://github.com/bhattarailab/Med-MMFL-Benchmark){: .btn .btn--warning}"
   - title: "Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval"
     authors: "Z. Wang, S. Ramasinghe, C. Xu, J. Monteil, **L. Bazzani**, T. Ajanthan"
     venue: "In International Conference on Computer Vision (ICCV), 2025"
