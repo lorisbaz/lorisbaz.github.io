@@ -1,5 +1,18 @@
 # Publications on home page
 papers:
+  - title: "Interactive Episodic Memory with User Feedback"
+    authors: "N. Subedi, **L. Bazzani**, Z. Al-Halah."
+    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+    teaser: refocus.png
+    links:
+      - "[PDF](TBA){: .btn .btn--info}"
+  - title: "Multi-Level Conditioning by Pairing Localized Text and Sketch for Fashion Image Generation"
+    authors: "Z. Liu, D. Talon, F. Girella, Z. Ruan, M. Mondo, **L. Bazzani**, Y. Wang, M. Cristani."
+    venue: "Arxiv, 2026"
+    teaser: lots.png
+    links:
+      - "[Project](https://intelligolabs.github.io/lots/){: .btn .btn--success}"
+      - "[PDF](https://arxiv.org/abs/2602.18309){: .btn .btn--info}"
   - title: "Med-MMFL: A Multimodal Federated Learning Benchmark in Healthcare"
     authors: "A. Chhetri, B. Niroula, P. Shrestha, Y. R. Shrestha, L. A. Anderson, P. K. Gyawali, **L. Bazzani**, B. Bhattarai."
     venue: "Arxiv, 2026"
@@ -20,6 +33,12 @@ papers:
     links:
       - "[PDF](https://arxiv.org/pdf/2410.08211){: .btn .btn--info}"
       - "[Code](https://github.com/astra-vision/LatteCLIP){: .btn .btn--warning}"
+  - title: "UniCoRN: Unified Commented Retrieval Network with LMMs"
+    authors: "M. Jaritz, M. Guillaumin, S. Sternig, **L. Bazzani**"
+    venue: "Arxiv, 2025"
+    teaser: unicorn.png
+    links:
+      - "[PDF](https://arxiv.org/abs/2502.08254){: .btn .btn--info}"
   - title: "ViewFusion: Towards Multi-View Consistency via Interpolated Denoising"
     authors: "X. Yang, Y. Zuo, S. Ramasinghe, **L. Bazzani**, G. Avraham, A. van den Hengel"
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
