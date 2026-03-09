@@ -6,48 +6,59 @@ classes: wide
 
 {% include base_path %}
 
-<h2 id="bio">Bio</h2>
-<div style="text-align: justify; font-size: 0.8em;">
+<h2 id="bio">😊 Bio</h2>
+<div style="text-align: justify; font-size: 0.7em;">
 <p>
-I am an AI Research Leader with 15+ years of experience advancing AI, from classical computer vision and machine learning to today’s foundation and multimodal generative models. My core strength lies in driving innovation: developing new models that push the state of the art and translating them into real-world products at global scale.
+I am an AI Research Leader with 15+ years of experience advancing AI, from classical computer vision and machine learning to today's foundation and multimodal generative models. 
 </p>
 <p>
-As Principal Scientist at <a href="http://www.amazon.jobs/location/berlin-germany">Amazon</a>, I led high-impact core research and product efforts across Prime Video, Alexa, and mobile/.com shopping. I co-developed novel models and architectures for video understanding, vision-language representation, Large Multimodal Models (LMMs), and diffusion models. My work powered AI-driven features such as live sports highlights, virtual try-on, interactive product recommendations, and shopping assistants, used by millions of users worldwide and generating O(XXM) USD in business impact. I pioneered Amazon’s first deep learning models for video understanding and LMM-based shopping experiences, laying the foundation for new product directions and research programs across the company.
+I specialize in <b>adaptive and collaborative multimodal learning and generation</b>, with a forward-looking emphasis on: 
+1) specialization of large multimodal and diffusion-based models, 
+2) controllable multimodal generation and editing for data synthesis, 
+3) interaction-native modeling and learning, and
+4) impact on real-world industrial applications.
 </p>
 <p>
-My research has been published in top-tier venues including CVPR, ICCV, ECCV, and ICML, with contributions spanning vision-language training, video understanding, generative models, and LMMs. I’ve authored 50+ publications and granted patents, and actively serve the scientific community as a reviewer and workshop organizer.
+My background integrates <b>deep research roots with industrial execution</b>:</p>
+<ul style="padding-left: 10px;">
+  <li style="margin-bottom: 0.5em;">During nearly a decade at <a href="http://www.amazon.jobs/location/berlin-germany">Amazon</a>, I served as a Principal Scientist, leading high-impact core research and product efforts across Prime Video, Alexa, and mobile/.com shopping. I co-developed novel models and architectures for video understanding, vision-language representation, Large Multimodal Models, and diffusion models. My work powered AI-driven features such as live sports highlights, virtual try-on, interactive product recommendations, and shopping assistants, used by millions of users worldwide and generating O(XXM) USD in business impact.</li>
+  <li style="margin-bottom: 0.5em;">I spent the first part of my career in academia, obtaining my Ph.D. in Computer Science from the <a href="http://www.di.univr.it/">University of Verona</a> (Italy) in 2012 supervised by Prof. <a href="https://www.di.univr.it/?ent=persona&id=92">Vittorio Murino</a> and Prof. <a href="http://profs.sci.univr.it/~cristanm/">Marco Cristani</a>. I was a visiting student at the <a href="https://www.cs.ubc.ca/">University of British Columbia</a> with Prof. <a href="http://www.cs.ox.ac.uk/people/nando.defreitas/">Nando de Freitas</a>. I was a postdoctoral fellow at <a href="http://web.cs.dartmouth.edu/">Dartmouth College</a> working with Prof. <a href="http://www.cs.dartmouth.edu/~lorenzo/home.html">Lorenzo Torresani</a> and I was a postdoctoral fellow at the <a href="https://pavis.iit.it/">Italian Institute of Technology</a> working with Prof. <a href="https://www.di.univr.it/?ent=persona&id=92">Vittorio Murino</a>.</li>
+</ul>
 </p>
 <p>
-I thrive in fast-paced, cross-functional environments, collaborating with scientists, engineers, and product leaders to turn foundational research into scalable solutions. My goal is to build AI systems that are both technically groundbreaking and product-relevant.
-</p>
-<p>
-I obtained my Ph.D. in Computer Science from the <a href="http://www.di.univr.it/">University of Verona</a> (Italy) in 2012 supervised by Prof. <a href="https://www.di.univr.it/?ent=persona&id=92">Vittorio Murino</a> and Prof. <a href="http://profs.sci.univr.it/~cristanm/">Marco Cristani</a>.
-During my Ph.D., I visited the <a href="https://www.cs.ubc.ca/">University of British Columbia</a> collaborating with Prof. <a href="http://www.cs.ox.ac.uk/people/nando.defreitas/">Nando de Freitas</a>.
-Before Amazon, I was a postdoctoral fellow at <a href="http://web.cs.dartmouth.edu/">Dartmouth College</a> working with Prof. <a href="http://www.cs.dartmouth.edu/~lorenzo/home.html">Lorenzo Torresani</a> and I was a postdoctoral fellow at the <a href="https://pavis.iit.it/">Italian Institute of Technology</a> working with Prof. <a href="https://www.di.univr.it/?ent=persona&id=92">Vittorio Murino</a>.
+Creativity fuels my work in both science and sound. A long-time keyboardist and former band member, I am currently composing and producing original music in my home studio. You can explore my latest tracks here: <a href="https://soundcloud.com/cyber-phoenix-50888691">Listen on SoundCloud</a>.
 </p>
 </div>
 
-<!--<h2>News</h2>-->
-<!--<div id="news">-->
-<!--  {% for item in site.data.news.main %}-->
-<!--  <p><strong><font class="new">NEW! </font></strong>{{ item | markdownify | remove: '<p>' | remove: '</p>'}}</p>-->
-<!--  {% endfor %}-->
-<!--  <a href="#" onclick="hideBlock('news'); showBlock('allnews'); return false;" class="btn btn&#45;&#45;inverse">More</a>-->
-<!--</div>-->
-<!--<div id="allnews" style="display: none;">-->
-<!--  {% for item in site.data.news.all %}-->
-<!--  <p><strong><font class="new">NEW! </font></strong>{{ item | markdownify | remove: '<p>' | remove: '</p>'}}</p>-->
-<!--  {% endfor %}-->
-<!--  <a href="#" onclick="hideBlock('allnews'); showBlock('news'); return false;" class="btn btn&#45;&#45;inverse">Less</a>-->
-<!--</div>-->
+<h2>📢 News</h2>
+{% if site.data.news.main %}
+  <div class="news" style="font-size: 0.7em;">
+    <ul style="list-style: none; padding-left: 0;">
+      {% for item in site.data.news.main limit:6 %}
+        <li><strong>{{ item.date }}</strong>: {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      {% endfor %}
+    </ul>
+    {% if site.data.news.main.size > 6 %}
+      <div id="news-all" style="display: none;">
+        <ul style="list-style: none; padding-left: 0;">
+          {% for item in site.data.news.main offset:6 %}
+            <li><strong>{{ item.date }}</strong>: {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor %}
+        </ul>
+        <a href="#" onclick="document.getElementById('news-all').style.display = 'none'; document.getElementById('news-more-btn').style.display = 'inline-block'; return false;" class="btn btn--inverse">Less</a>
+      </div>
+      <a href="#" id="news-more-btn" onclick="document.getElementById('news-all').style.display = 'block'; this.style.display = 'none'; return false;" class="btn btn--inverse">More</a>
+    {% endif %}
+  </div>
+{% endif %}
 
-<h2 style="clear: both;" id="publications">Research and Publications <a href="http://scholar.google.com/citations?user=1cdNGL4AAAAJ&hl=en" style="font-size: 0.85em; font-weight: normal;">[Google Scholar]</a></h2>
+<h2 style="clear: both;" id="publications">📝 Research, Publications and Patents <a href="http://scholar.google.com/citations?user=1cdNGL4AAAAJ&hl=en" style="font-size: 0.85em; font-weight: normal;">[Google Scholar]</a></h2>
 {% for publication in site.data.publications.papers %}
   {% include publication-single.html %}
 {% endfor %}
 <div style="clear: both;"></div>
 
-<h2 id="timeline">Timeline</h2>
+<h2 id="timeline">💼 My Experience</h2>
 {% include timeline.html %}
 <div style="clear: both;"></div>
 

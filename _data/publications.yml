@@ -53,6 +53,31 @@ papers:
     teaser: iEdit.png
     links:
       - "[PDF](https://arxiv.org/abs/2305.05947){: .btn .btn--info}"
+  - title: "[Patent] Interactive retrieval using visual semantic matching"
+    authors: "US-11720942, 2023"
+    teaser: patent.png
+    links:
+      - "[PDF](https://patents.google.com/patent/US11720942B1/en?oq=11720942){: .btn .btn--info}"
+  - title: "[Patent] Localized visual similarity"
+    authors: "US-11809520, 2023"
+    teaser: patent.png
+    links:
+      - "[PDF](https://patents.google.com/patent/US11809520B1/en?oq=11809520){: .btn .btn--info}"
+  - title: "[Patent] Attribute-based interactive product recommendations"
+    authors: "US-11829445, 2023"
+    teaser: patent.png
+    links:
+      - "[PDF](https://patents.google.com/patent/US11829445B1/en?oq=11829445){: .btn .btn--info}"
+  - title: "[Patent] Visual blending of content"
+    authors: "US 11416910, 2022"
+    teaser: patent.png
+    links:
+      - "[PDF](https://patents.google.com/patent/US11416910B1/en?oq=11416910){: .btn .btn--info}"
+  - title: "[Patent] Machine learning system to score alt-text in image data"
+    authors: "US-11361212, 2022"
+    teaser: patent.png
+    links:
+      - "[PDF](https://patents.google.com/patent/US11361212B2/en?oq=11361212){: .btn .btn--info}"
   - title: "Contrastive Language-Action Pre-training for Temporal Localization"
     authors: "M. Xu, E. Gundogdu, M. Lapin, B. Ghanem, M. Donoser, **L. Bazzani**"
     venue: "Arxiv, 2022"
@@ -93,6 +118,11 @@ papers:
       - "[Project](https://www.amazon.science/blog/how-computer-vision-will-help-amazon-customers-shop-online){: .btn .btn--success}"
       - "[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Image_Search_With_Text_Feedback_by_Visiolinguistic_Attention_Learning_CVPR_2020_paper.pdf){: .btn .btn--info}"
       - "[Code](https://github.com/yanbeic/VAL){: .btn .btn--warning}"
+  - title: "[Patent] Automated video ratings"
+    authors: "US-10643074, 2020"
+    teaser: patent.png
+    links:
+      - "[PDF](https://patents.google.com/patent/US10643074B1/en?oq=10643074){: .btn .btn--info}"
   - title: "Image Captioning as Neural Machine Translation Task in SOCKEYE "
     authors: "**L. Bazzani**, T. Domhan, F. Hieber "
     venue: "Arxiv, 2018"
