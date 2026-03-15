@@ -6,33 +6,27 @@ classes: wide
 
 {% include base_path %}
 
-<h2 id="bio">😊 Bio</h2>
-<div style="text-align: justify; font-size: 0.7em;">
-<p>
-I am an AI Research Leader with 15+ years of experience advancing AI, from classical computer vision and machine learning to today's foundation and multimodal generative models. 
+<div style="text-align: justify; font-size: 0.7em; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px;">
+<p style="margin-top: 0;">
+AI Research Leader with 15+ years of experience advancing AI, from classical computer vision and machine learning to today's foundation and multimodal generative models. 
 </p>
 <p>
-I specialize in <b>adaptive and collaborative multimodal learning and generation</b>, with a forward-looking emphasis on: 
+<b>Research focus on adaptive and collaborative multimodal learning and generation</b>: 
 1) specialization of large multimodal and diffusion-based models, 
 2) controllable multimodal generation and editing for data synthesis, 
 3) interaction-native modeling and learning, and
-4) impact on real-world industrial applications.
+4) clear impact on real-world industrial applications.
 </p>
-<p>
-My background integrates <b>deep research roots with industrial execution</b>:</p>
-<ul style="padding-left: 10px;">
-  <li style="margin-bottom: 0.5em;">During nearly a decade at <a href="http://www.amazon.jobs/location/berlin-germany">Amazon</a>, I served as a Principal Scientist, leading high-impact core research and product efforts across Prime Video, Alexa, and mobile/.com shopping. I co-developed novel models and architectures for video understanding, vision-language representation, Large Multimodal Models, and diffusion models. My work powered AI-driven features such as live sports highlights, virtual try-on, interactive product recommendations, and shopping assistants, used by millions of users worldwide and generating O(XXM) USD in business impact.</li>
-  <li style="margin-bottom: 0.5em;">I spent the first part of my career in academia, obtaining my Ph.D. in Computer Science from the <a href="http://www.di.univr.it/">University of Verona</a> (Italy) in 2012 supervised by Prof. <a href="https://www.di.univr.it/?ent=persona&id=92">Vittorio Murino</a> and Prof. <a href="http://profs.sci.univr.it/~cristanm/">Marco Cristani</a>. I was a visiting student at the <a href="https://www.cs.ubc.ca/">University of British Columbia</a> with Prof. <a href="http://www.cs.ox.ac.uk/people/nando.defreitas/">Nando de Freitas</a>. I was a postdoctoral fellow at <a href="http://web.cs.dartmouth.edu/">Dartmouth College</a> working with Prof. <a href="http://www.cs.dartmouth.edu/~lorenzo/home.html">Lorenzo Torresani</a> and I was a postdoctoral fellow at the <a href="https://pavis.iit.it/">Italian Institute of Technology</a> working with Prof. <a href="https://www.di.univr.it/?ent=persona&id=92">Vittorio Murino</a>.</li>
-</ul>
-</p>
-<p>
-Creativity fuels my work in both science and sound. A long-time keyboardist and former band member, I am currently composing and producing original music in my home studio. You can explore my latest tracks here: <a href="https://soundcloud.com/cyber-phoenix-50888691">Listen on SoundCloud</a>.
-</p>
+
+<span style="color: red;">New: I am searching for a new home to join, seeking an environment where I can lead high-stakes innovation and drive the next generation of AI for industry.</span>
 </div>
+
+{% include timeline.html %}
+<div style="clear: both;"></div>
 
 <h2>📢 News</h2>
 {% if site.data.news.main %}
-  <div class="news" style="font-size: 0.7em;">
+<div style="text-align: justify; font-size: 0.7em; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px;">
     <ul style="list-style: none; padding-left: 0;">
       {% for item in site.data.news.main limit:6 %}
         <li><strong>{{ item.date }}</strong>: {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -58,9 +52,13 @@ Creativity fuels my work in both science and sound. A long-time keyboardist and 
 {% endfor %}
 <div style="clear: both;"></div>
 
-<h2 id="timeline">💼 My Experience</h2>
-{% include timeline.html %}
-<div style="clear: both;"></div>
+
+<h2>&#129412 Personal Projects</h2>
+<div style="text-align: justify; font-size: 0.7em; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px;">
+Creativity fuels my work in both science and sound. A long-time keyboardist and former band member, I am currently composing and producing original music in my home studio. You can explore my latest tracks here: <a href="https://soundcloud.com/cyber-phoenix-50888691">Listen on SoundCloud</a>.
+</div>
+<div style="clear: both;"></div>  
+
 
 <!-- <h2>Theses</h2>
 <h2>Theses</h2>
