@@ -1,4 +1,79 @@
 /* ==========================================================================
+   TOPIC CARDS
+   ========================================================================== */
+
+.stat-card {
+  background: #fffefa;
+  border: 1px solid #d9c4e8;
+  border-radius: 8px;
+  padding: 8px 4px;
+
+  &__number {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #8400ff;
+    line-height: 1.1;
+  }
+
+  &__label {
+    font-size: 0.62em;
+    color: #6b6b6b;
+    margin-top: 2px;
+    line-height: 1.2;
+  }
+
+  &--group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 6px 8px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px;
+    border-top: 1px solid #ede8f5;
+    padding-top: 4px;
+
+    &:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+
+  &__row-number {
+    color: #5f00b8;
+    font-size: 0.95em;
+    white-space: nowrap;
+  }
+
+  &__row-label {
+    font-size: 0.6em;
+    color: #6b6b6b;
+    text-align: right;
+    line-height: 1.2;
+  }
+}
+
+.topic-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fffefa;
+  border: 1px solid #d9c4e8;
+  border-radius: 8px;
+  padding: 10px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: #8400ff;
+    box-shadow: 0 2px 8px rgba(#8400ff, 0.2);
+  }
+}
+
+/* ==========================================================================
    PUBLICATION
    ========================================================================== */
 
@@ -46,26 +121,34 @@
   }
 }
 
-.publication__item-text {
-  width: 65%; 
-  float: left; 
-  padding-left: 20px; 
+.publication__item {
+  display: flex;
+  align-items: stretch;
 }
 
 .publication__item-teaser {
+  flex: 0 0 30%;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   border-radius: $border-radius;
   overflow: hidden;
-  width:30%; 
-  float: left;
-  height: 150px;
-  background-color:     white;
+  background-color: white;
+  min-height: 80px;
+  max-height: 120px;
   img {
+    width: 100%;
     height: 100%;
+    object-fit: contain;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
+
+  &--patent {
+    max-height: 60px;
+  }
+}
+
+.publication__item-text {
+  flex: 1;
+  padding-left: 20px;
 }
 
 

@@ -6,19 +6,71 @@ classes: wide
 
 {% include base_path %}
 
-<div style="text-align: justify; font-size: 0.7em; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px;">
-<p style="margin-top: 0;">
-AI Research Leader with 15+ years of experience advancing AI, from classical computer vision and machine learning to today's foundation and multimodal generative models. 
-</p>
-<p>
-<b>Research focus on adaptive and collaborative multimodal learning and generation</b>: 
-1) specialization of large multimodal and diffusion-based models, 
-2) controllable multimodal generation and editing for data synthesis, 
-3) interaction-native modeling and learning, and
-4) clear impact on real-world industrial applications.
-</p>
+<div style="background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px;">
 
-<span style="color: red;">New: I am searching for a new home to join, seeking an environment where I can lead high-stakes innovation and drive the next generation of AI for industry.</span>
+  <!-- Stats bar -->
+  <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; margin-bottom: 14px;">
+
+    <!-- Description: spans 2 columns -->
+    <div class="stat-card" style="text-align: left; align-items: flex-start; flex-direction: column; gap: 6px; font-size: 0.75em;">
+      <p style="margin: 0;">Hi, I'm Loris, an AI Research Leader with <b>15+ years</b> of experience in AI between academia and big tech. My research focus is in <b>adaptive and collaborative multimodal learning and generation</b>.</p>
+      <p style="margin: 0; color: red;"><br>New: I am searching for a new home to join, where I can lead high-stakes innovation and drive the next generation of AI for industry.</p>
+    </div>
+
+    <!-- Amazon stat group -->
+    <div class="stat-card stat-card--group">
+        <div class="stat-card__row">
+          <div class="stat-card__row-number">10 yrs</div>
+          <div class="stat-card__row-label">at Amazon</div>
+        </div>
+        <div class="stat-card__row">
+          <div class="stat-card__row-number">8+</div>
+          <div class="stat-card__row-label">Products Launched</div>
+        </div>
+        <div class="stat-card__row">
+          <div class="stat-card__row-number">$100M+</div>
+          <div class="stat-card__row-label">Business Impact</div>
+        </div>
+      </div>
+      <div class="stat-card stat-card--group">
+        <div class="stat-card__row">
+          <div class="stat-card__row-number">50+</div>
+          <div class="stat-card__row-label">Publications</div>
+        </div>
+        <div class="stat-card__row">
+          <div class="stat-card__row-number">{{ site.data.scholar.citations }}</div>
+          <div class="stat-card__row-label">Citations</div>
+        </div>
+        <div class="stat-card__row">
+          <div class="stat-card__row-number">{{ site.data.scholar.hindex }}</div>
+          <div class="stat-card__row-label">H-index</div>
+        </div>
+      </div>
+
+  </div>
+
+  <!-- Research focus topic cards -->
+  <div style="font-size: 0.75em;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+      <div class="topic-card">
+        <img src="{{ base_path }}/page_files/teaser_1_specialization.png" alt="" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
+        <span>Specialization of large multimodal and diffusion-based models</span>
+      </div>
+      <div class="topic-card">
+        <img src="{{ base_path }}/page_files/teaser_2_data_control.png" alt="" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
+        <span>Controllable multimodal generation and editing for data synthesis</span>
+      </div>
+      <div class="topic-card">
+        <img src="{{ base_path }}/page_files/teaser_3_interaction.png" alt="" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
+        <span>Interaction-native modeling and learning</span>
+      </div>
+      <div class="topic-card">
+        <img src="{{ base_path }}/page_files/teaser_4_impact.png" alt="" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
+        <span>Clear impact on real-world industrial applications</span>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 {% include timeline.html %}
@@ -54,9 +106,9 @@ AI Research Leader with 15+ years of experience advancing AI, from classical com
 
 
 <h2>&#129412 Personal Projects</h2>
-<div style="text-align: justify; font-size: 0.7em; background: #fff; border: 1px solid #e9ecef; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px;">
-Creativity fuels my work in both science and sound. A long-time keyboardist and former band member, I am currently composing and producing original music in my home studio. You can explore my latest tracks here: <a href="https://soundcloud.com/cyber-phoenix-50888691">Listen on SoundCloud</a>.
-</div>
+{% for project in site.data.personal.projects %}
+  {% include personal-single.html %}
+{% endfor %}
 <div style="clear: both;"></div>  
 
 

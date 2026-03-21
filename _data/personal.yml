@@ -1,0 +1,11 @@
+projects:
+  - title: "Music Album: Accepted Insanity"
+    description: "As long-time keyboardist, I am currently composing and producing original synthwave music. This album explores the insanity that sorrounds us but we are somehow programmed to accept."
+    teaser: cyberphoenix_acceptediinsanity.png
+    links:
+      - "[Project](https://soundcloud.com/cyber-phoenix-50888691){: .btn .btn--success}"
+  - title: "Personal Hybrid Training Planner"
+    description: "As a runner and passionate about strength training, I created a personalized planner that leverages AI to build highly personalized, multi-week training plans tailored to your specific requirements."
+    teaser: personal_hybrid_training_planner.png
+    links:
+      - "[Project](https://github.com/lorisbaz/personal-hybrid-training-planner){: .btn .btn--success}"
