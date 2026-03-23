@@ -37,7 +37,7 @@ classes: wide
           <div class="stat-card__row-label">Publications</div>
         </div>
         <div class="stat-card__row">
-          <div class="stat-card__row-number">{{ site.data.scholar.citations }}</div>
+          <div class="stat-card__row-number">{{ site.data.scholar.citations | plus: 0 | divided_by: 100 | times: 100 }}+</div>
           <div class="stat-card__row-label">Citations</div>
         </div>
         <div class="stat-card__row">
