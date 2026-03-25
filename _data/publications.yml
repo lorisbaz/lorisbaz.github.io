@@ -198,7 +198,7 @@ papers:
       - "[PDF](https://staff.ie.cuhk.edu.hk/~ccloy/cviu_si/files/cviu_si_editorial.pdf){: .btn .btn--info}"
     classification:
       - video  
-  - title: "Approximate Log-Hilbert-Schmidt distances between covariance operators for image classification"
+  - title: "Approximate Log-Hilbert-Schmidt Distances Between Covariance Operators for Image Classification"
     authors: "H. Q. Minh, M. San Biagio, **L. Bazzani**, V. Murino"
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
     teaser: covars.png
@@ -206,7 +206,7 @@ papers:
       - "[PDF](/papers/proceedings/Minhetal_CVPR16.pdf){: .btn .btn--info}"
     classification:
       - struct
-  - title: "Self-taught object localization with deep networks"
+  - title: "Self-taught Object Localization with Deep Networks"
     authors: "**L. Bazzani**, A. Bergamo, D. Anguelov, L. Torresani"
     venue: "In IEEE Winter Conference on Applications of Computer Vision (WACV), 2016"
     teaser: STL.png
@@ -244,7 +244,7 @@ papers:
       - "[Dataset](https://www.iit.it/web/pattern-analysis-and-computer-vision/friends-meet-dataset){: .btn .btn--inverse}"
     classification:
       - video
-  - title: "SDALF: modeling human appearance with symmetry-driven accumulation of local features"
+  - title: "SDALF: Modeling Human Appearance with Symmetry-driven Accumulation of Local Features"
     authors: "**L. Bazzani**,  M. Cristani, V. Murino"
     venue: "Person Re-identification, 2014"
     teaser: SDALF_CVIU.png
@@ -255,7 +255,7 @@ papers:
       - "[Video](https://www.youtube.com/watch?v=3U5Aacyg-No&t=6s){: .btn .btn--inverse}"
     classification:
       - reid
-  - title: "Weighted bag of visual words for object recognition"
+  - title: "Weighted Bag of Visual Words for Object Recognition"
     authors: "**L. Bazzani**<sup>*</sup>, M. San Biagio<sup>*</sup>, M. Cristani, V. Murino"
     venue: "In IEEE International Conference on Image Processing (ICIP), 2014"
     teaser: wBOF_ICIP.png
@@ -263,7 +263,7 @@ papers:
       - "[PDF](/papers/proceedings/SanBiagioetal_ICIP14.pdf){: .btn .btn--info}"
     classification:
       - struct
-  - title: "A unifying framework for vector-valued manifold regularization and multi-view learning"
+  - title: "A Unifying Framework for Vector-valued Manifold Regularization and Multi-view Learning"
     authors: "H. Q. Minh, **L. Bazzani**, V. Murino"
     venue: "The 30th International Conference on Machine Learning (ICML), 2013"
     teaser: multiview_pic_small.png
@@ -273,7 +273,7 @@ papers:
       - "[Code](https://github.com/lorisbaz/Multiview-learning){: .btn .btn--warning}"
     classification:
       - struct
-  - title: "Semi-supervised multi-feature learning for person re-identification"
+  - title: "Semi-Supervised Multi-Feature Learning for Person Re-Identification"
     authors: "D. Figueira, **L. Bazzani**, H.Q. Minh, M. Cristani, A. Bernardino, V. Murino"
     venue: "In International Conference on Advanced Video and Signal-based Surveillance (AVSS), 2013"
     teaser: MVL_AVSS.png
@@ -281,7 +281,7 @@ papers:
       - "[PDF](/papers/proceedings/Figueiraetal_AVSS13.pdf){: .btn .btn--info}"
     classification:
       - struct
-  - title: "Person re-identification with a PTZ camera: an introductory study"
+  - title: "Person Re-Identification with a PTZ Camera: An Introductory Study"
     authors: "P. Salvagnini,  **L. Bazzani**, M. Cristani, V. Murino"
     venue: "In International Conference on Image Processing (ICIP), 2013"
     teaser: PTZ_ICIP.png
@@ -289,7 +289,7 @@ papers:
       - "[PDF](/papers/proceedings/Salvagninietal_ICIP13.pdf){: .btn .btn--info}"
     classification:
       - reid
-  - title: "Symmetry-driven accumulation of local features for human characterization and re-identification "
+  - title: "Symmetry-Driven Accumulation of Local Features for Human Characterization and Re-Identification"
     authors: "**L. Bazzani**, M. Cristani, V. Murino"
     venue: "Computer Vision and Image Understanding (CVIU), 2013 "
     teaser: SDALF_CVIU.png
@@ -300,7 +300,7 @@ papers:
       - "[Video](https://www.youtube.com/watch?v=3U5Aacyg-No&t=6s){: .btn .btn--inverse}"
     classification:
       - reid
-  - title: "Social interactions by visual focus of attention in a three-dimensional environment"
+  - title: "Social Interactions by Visual Focus of Attention in a Three-Dimensional Environment"
     authors: "**L. Bazzani**, D. Tosato, M. Cristani, M. Farenzena, G. Pagetti, G. Menegaz, and V. Murino"
     venue: "Expert Systems 2013 "
     teaser: SVF_ES.png
@@ -311,7 +311,7 @@ papers:
       - "[Video](https://www.youtube.com/watch?v=qSTuZxzPG98){: .btn .btn--inverse}"
     classification:
       - behave  
-  - title: "Decentralized particle filter for joint individual-group tracking "
+  - title: "Decentralized Particle Filter for Joint Individual-Group Tracking"
     authors: "**L. Bazzani**, M. Cristani, V. Murino"
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012"
     teaser: DPF_CVPR.png
@@ -321,7 +321,7 @@ papers:
       - "[Dataset](https://www.iit.it/web/pattern-analysis-and-computer-vision/friends-meet-dataset){: .btn .btn--inverse}"
     classification:
       - video
-  - title: "Learning where to attend with deep architectures for image tracking "
+  - title: "Learning Where to Attend with Deep Architectures for Image Tracking"
     authors: "M. Denil, **L. Bazzani**, H. Larochelle, and N. de Freitas "
     venue: "Neural Computation, 2012"
     teaser: RBMtrack_NECO.png
@@ -333,7 +333,7 @@ papers:
       - "[Dataset](/datasets/ICML11_synth_dataset.7z){: .btn .btn--inverse}"
     classification:
       - video   
-  - title: "Re-identification with RGB-D sensors"
+  - title: "Re-Identification with RGB-D Sensors"
     authors: "B. I. Barbosa, M. Cristani, A. Del Bue, **L. Bazzani**, V. Murino"
     venue: "In 1st International Workshop on Re-Identification, 2012"
     teaser: RGBD_wECCV.png
@@ -342,7 +342,7 @@ papers:
       - "[Dataset](https://www.iit.it/web/pattern-analysis-and-computer-vision/rgbd-id){: .btn .btn--inverse}"
     classification:
       - reid
-  - title: "Online bayesian non-parametrics for social group detection"
+  - title: "Online Bayesian Non-Parametrics for Social Group Detection"
     authors: "M. Zanotto, **L. Bazzani**, M. Cristani, V. Murino"
     venue: "In British Machine Vision Conference (BMVC), 2012"
     teaser: NPB_BMVC.png
@@ -350,7 +350,7 @@ papers:
       - "[PDF](/papers/proceedings/Zanottoetal_BMVC12.pdf){: .btn .btn--info}"
     classification:
       - behave  
-  - title: "Analyzing groups: a social signaling perspective "
+  - title: "Analyzing Groups: A Social Signaling Perspective"
     authors: "**L. Bazzani**, M. Cristani, G. Paggetti, D. Tosato, G. Menegaz, and V. Murino"
     venue: " Video Analytics for Business Intelligence, 2012 "
     teaser: SVF_ES.png
@@ -361,7 +361,7 @@ papers:
       - "[Video](https://www.youtube.com/watch?v=qSTuZxzPG98){: .btn .btn--inverse}"
     classification:
       - behave  
-  - title: "Multiple-shot person re-identification by chromatic and epitomic analyses "
+  - title: "Multiple-Shot Person Re-Identification by Chromatic and Epitomic Analyses"
     authors: "**L. Bazzani**, M. Cristani, A. Perina, and V. Murino "
     venue: "Pattern Recognition Letters (PRL), 2012"
     teaser: AHPE_PRL.png
@@ -369,7 +369,7 @@ papers:
       - "[PDF](/papers/proceedings/Bazzanietal_PRL11.pdf){: .btn .btn--info}"
     classification:
       - reid
-  - title: "Learning attentional policies for object tracking and recognition in video with deep networks"
+  - title: "Learning Attentional Policies for Object Tracking and Recognition in Video with Deep Networks"
     authors: "**L. Bazzani**, N. de Freitas, H. Larochelle, V. Murino, J-A Ting"
     venue: "The 30th International Conference on Machine Learning (ICML), 2011"
     teaser: RBM_ICML.png
@@ -381,7 +381,7 @@ papers:
       - "[Dataset](/datasets/ICML11_synth_dataset.7z){: .btn .btn--inverse}"
     classification:
       - video
-  - title: "Custom pictorial structures for re-identification "
+  - title: "Custom Pictorial Structures for Re-Identification"
     authors: "D. S. Cheng, M. Cristani, M. Stoppa, **L. Bazzani**, V. Murino"
     venue: "In British Machine Vision Conference (BMVC), 2011"
     teaser: CPS_BMVC.png
@@ -392,7 +392,7 @@ papers:
       - "[Dataset](/datasets/CAVIAR4REID.zip){: .btn .btn--inverse}"
     classification:
       - reid
-  - title: "Social interaction discovery by statistical analysis of F-formations"
+  - title: "Social Interaction Discovery by Statistical Analysis of F-Formations"
     authors: "M. Cristani, **L. Bazzani**, G. Pagetti, A. Fossati, D. Tosato, A. Del Bue, G. Menegaz, V. Murino"
     venue: "In British Machine Vision Conference (BMVC), 2011 "
     teaser: FF_BMVC.png
@@ -402,7 +402,7 @@ papers:
       - "[Dataset](http://profs.sci.univr.it/~cristanm/datasets/CoffeeBreak/index.html){: .btn .btn--inverse}"
     classification:
       - behave  
-  - title: "Towards computational proxemics: Inferring social relations from interpersonal distances "
+  - title: "Towards Computational Proxemics: Inferring Social Relations from Interpersonal Distances"
     authors: "M. Cristani, G. Pagetti, A. Vinciarelli, **L. Bazzani**, G. Menegaz, V. Murino"
     venue: "In International Conference on Social Computing (SocialCom), 2011"
     teaser: FFGauss_SCOM.png
@@ -410,7 +410,7 @@ papers:
       - "[PDF](/papers/proceedings/Cristanietal_SCOM11.pdf){: .btn .btn--info}"
     classification:
       - behave  
-  - title: "Multiple-shot person re-identification by hpe signature"
+  - title: "Multiple-Shot Person Re-Identification by HPE Signature"
     authors: "**L. Bazzani**, M. Cristani, A. Perina, M. Farenzena, V. Murino"
     venue: "In International Conference on Pattern Recognition (ICPR), 2010"
     teaser: AHPE_PRL.png
@@ -418,7 +418,7 @@ papers:
       - "[PDF](/papers/proceedings/BazzaniIetalCPR2010.pdf){: .btn .btn--info}"
     classification:
       - reid
-  - title: "Person re-identification by symmetry-driven accumulation of local features "
+  - title: "Person Re-Identification by Symmetry-Driven Accumulation of Local Features"
     authors: "M. Farenzena, **L. Bazzani**, A. Perina, M. Cristani, V. Murino"
     venue: "In Conference on Computer Vision and Pattern Recognition (CVPR), 2010"
     teaser: SDALF_CVPR.png
@@ -429,7 +429,7 @@ papers:
       - "[Video](https://www.youtube.com/watch?v=3U5Aacyg-No&t=6s){: .btn .btn--inverse}"
     classification:
       - reid
-  - title: "Collaborative particle filters for group tracking "
+  - title: "Collaborative Particle Filters for Group Tracking"
     authors: "**L. Bazzani**, M. Cristani, V. Murino"
     venue: "In International Conference on Image Processing (ICIP), 2010 "
     teaser: COPF_ICIP.png
