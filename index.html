@@ -102,9 +102,65 @@ classes: wide
 {% endif %}
 
 <h2 style="clear: both;" id="publications">📝 Research, Publications and Patents <a href="http://scholar.google.com/citations?user=1cdNGL4AAAAJ&hl=en" style="font-size: 0.85em; font-weight: normal;">[Google Scholar]</a></h2>
+
+<div style="margin-bottom: 16px;">
+  <button id="pub-view-year" onclick="setPubView('year')" class="btn btn--primary btn--small" style="margin-right: 6px;">By Year</button>
+  <button id="pub-view-topic" onclick="setPubView('topic')" class="btn btn--inverse btn--small">By Topic</button>
+</div>
+
+<!-- View: By Year (default) -->
+<div id="pub-list-year">
 {% for publication in site.data.publications.papers %}
   {% include publication-single.html %}
 {% endfor %}
+</div>
+
+<!-- View: By Topic -->
+<div id="pub-list-topic" style="display: none;">
+{% for class in site.data.classification.classes %}
+  {% assign class_key = class[0] %}
+  {% assign class_name = class[1] %}
+  {% assign group_count = 0 %}
+  {% for publication in site.data.publications.papers %}
+    {% if publication.classification contains class_key %}
+      {% assign group_count = group_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if group_count > 0 %}
+  <h3 style="margin-top: 24px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 2px solid #e9ecef;">{{ class_name }}</h3>
+  {% for publication in site.data.publications.papers %}
+    {% if publication.classification contains class_key %}
+      {% include publication-single.html %}
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+  {% assign unclassified_count = 0 %}
+  {% for publication in site.data.publications.papers %}
+    {% unless publication.classification and publication.classification.size > 0 %}
+      {% assign unclassified_count = unclassified_count | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+  {% if unclassified_count > 0 %}
+  <h3 style="margin-top: 24px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 2px solid #e9ecef;">Other Research</h3>
+  {% for publication in site.data.publications.papers %}
+    {% unless publication.classification and publication.classification.size > 0 %}
+      {% include publication-single.html %}
+    {% endunless %}
+  {% endfor %}
+  {% endif %}
+</div>
+
+<script>
+function setPubView(view) {
+  document.getElementById('pub-list-year').style.display = view === 'year' ? '' : 'none';
+  document.getElementById('pub-list-topic').style.display = view === 'topic' ? '' : 'none';
+  document.getElementById('pub-view-year').className = view === 'year' ? 'btn btn--primary btn--small' : 'btn btn--inverse btn--small';
+  document.getElementById('pub-view-topic').className = view === 'topic' ? 'btn btn--primary btn--small' : 'btn btn--inverse btn--small';
+  document.getElementById('pub-view-year').style.marginRight = '6px';
+}
+</script>
+
 <div style="clear: both;"></div>
 
 

@@ -1,0 +1,8 @@
+classes:
+  MM-user: "Multimodal Learning with Interaction/User Feedback"
+  MM-fed: "Multimodal Federated Learning"
+  MM-gen: "Multimodal Generative Models"
+  video: "Video Understanding"
+  struct: "Structured Methods for Images"
+  behave: "Behavioral and Interaction Analysis in Videos"
+  reid: "Cross-Camera Identification"
