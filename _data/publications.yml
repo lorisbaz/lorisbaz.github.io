@@ -181,7 +181,7 @@ papers:
       - "[PDF](https://openreview.net/forum?id=SJRpRfKxx){: .btn .btn--info}"
       - "[Video](https://youtu.be/aXOwc17nx_s){: .btn .btn--inverse}"
     classification:
-      - reid
+      - video
   - title: "Group Detection and Tracking using Sociological Features"
     authors: "S. Vascon, and **L. Bazzani**"
     venue: "Group and Crowd Behavior for Computer Vision, 2017"
@@ -215,7 +215,7 @@ papers:
       - "[PDF](/papers/proceedings/BazzanietalWACV16.pdf){: .btn .btn--info}"
       - "[Code](https://github.com/lorisbaz/self-taught_localization){: .btn .btn--warning}"
     classification:
-      - video 
+      - struct 
   - title: "A Unifying Framework in Vector-valued Reproducing Kernel Hilbert Spaces for Manifold Regularization and Co-Regularized Multi-view Learning"
     authors: "H. Q. Minh, **L. Bazzani**, V. Murino"
     venue: "Journal of Machine Learning Research (JMLR), 2016"
@@ -280,7 +280,7 @@ papers:
     links:
       - "[PDF](/papers/proceedings/Figueiraetal_AVSS13.pdf){: .btn .btn--info}"
     classification:
-      - struct
+      - reid
   - title: "Person Re-Identification with a PTZ Camera: An Introductory Study"
     authors: "P. Salvagnini,  **L. Bazzani**, M. Cristani, V. Murino"
     venue: "In International Conference on Image Processing (ICIP), 2013"
