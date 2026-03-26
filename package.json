@@ -33,6 +33,7 @@
     "build:js": "npm run uglify && npm run add-banner"
   },
   "dependencies": {
-    "minimatch": "^10.2.4"
+    "minimatch": "^10.2.4",
+    "picomatch": "^4.0.4"
   }
 }
