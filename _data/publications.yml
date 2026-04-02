@@ -5,7 +5,9 @@ papers:
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
     teaser: refocus.png
     links:
+      - "[Project](https://nsubedi11.github.io/refocus/){: .btn .btn--success}"
       - "[PDF](TBA){: .btn .btn--info}"
+      - "[Code](TBA){: .btn .btn--warning}"
     classification:
       - MM-user
   - title: "Multi-Level Conditioning by Pairing Localized Text and Sketch for Fashion Image Generation"
@@ -26,6 +28,16 @@ papers:
       - "[Code](https://github.com/bhattarailab/Med-MMFL-Benchmark){: .btn .btn--warning}"
     classification:
       - MM-fed
+  - title: "Benchmarking Interaction, Beyond Policy: a Reproducible Benchmark for Collaborative Instance Object Navigation"
+    authors: "E. Zorzi, F. Taioli, Y. Wang, M. Cristani, A. Farinelli, A. Castellini, **L. Bazzani**"
+    venue: "Arxiv, 2026"
+    teaser: qask.png
+    links:
+      - "[Project](https://benchmarking-interaction.github.io/){: .btn .btn--success}"
+      - "[PDF](https://arxiv.org/pdf/2604.00265){: .btn .btn--info}"
+      - "[Code](TBA){: .btn .btn--warning}"
+    classification:
+      - MM-user
   - title: "Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval"
     authors: "Z. Wang, S. Ramasinghe, C. Xu, J. Monteil, **L. Bazzani**, T. Ajanthan"
     venue: "In International Conference on Computer Vision (ICCV), 2025"
