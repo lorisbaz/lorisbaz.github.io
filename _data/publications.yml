@@ -1,7 +1,7 @@
 # Publications on home page
 papers:
   - title: "Interactive Episodic Memory with User Feedback"
-    authors: "N. Subedi, **L. Bazzani**, Z. Al-Halah."
+    authors: "N. Subedi, **L. Bazzani**, Z. Al-Halah"
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
     teaser: refocus.png
     links:
@@ -11,7 +11,7 @@ papers:
     classification:
       - MM-user
   - title: "Multi-Level Conditioning by Pairing Localized Text and Sketch for Fashion Image Generation"
-    authors: "Z. Liu, D. Talon, F. Girella, Z. Ruan, M. Mondo, **L. Bazzani**, Y. Wang, M. Cristani."
+    authors: "Z. Liu, D. Talon, F. Girella, Z. Ruan, M. Mondo, **L. Bazzani**, Y. Wang, M. Cristani"
     venue: "Arxiv, 2026"
     teaser: lots.png
     links:
@@ -20,7 +20,7 @@ papers:
     classification:
       - MM-gen
   - title: "Med-MMFL: A Multimodal Federated Learning Benchmark in Healthcare"
-    authors: "A. Chhetri, B. Niroula, P. Shrestha, Y. R. Shrestha, L. A. Anderson, P. K. Gyawali, **L. Bazzani**, B. Bhattarai."
+    authors: "A. Chhetri, B. Niroula, P. Shrestha, Y. R. Shrestha, L. A. Anderson, P. K. Gyawali, **L. Bazzani**, B. Bhattarai"
     venue: "Arxiv, 2026"
     teaser: mmfed.png
     links:

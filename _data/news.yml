@@ -1,6 +1,8 @@
 main:
+- date: "May 19, 2026"
+  text: "Invited speaker on Adaptive and Collaborative Multimodal Intelligence at the [University of Verona](https://www.di.univr.it/?ent=seminario&id=6999). Thanks [Alessandro](https://profs.scienze.univr.it/~farinelli/)!"
 - date: "Mar 2, 2026"
-  text: "Invited guest lecture on Multimodal Intelligence at [University of Utah](https://www.utah.edu/). Thanks [Ziad](https://scholar.google.com/citations?user=pEL6l3cAAAAJ&hl=en&oi=ao)!"
+  text: "Invited guest lecture at the Advanced Computer Vision course at the [University of Utah](https://www.utah.edu/). Thanks [Ziad](https://scholar.google.com/citations?user=pEL6l3cAAAAJ&hl=en&oi=ao)!"
 - date: "Feb 21, 2026"
   text: "1/2 papers accepted at CVPR 2026!"
 - date: "Dec 5, 2025"
@@ -14,4 +16,4 @@ main:
 - date: "Oct 01, 2025"
   text: "Teaching the master course [Data Visualization](https://www.corsi.univr.it/?ent=cs&id=1175&menu=studiare&tab=insegnamenti&aa=2025/2026&codiceCs=S85&codins=4S009065&discr=&discrCd=) at [University of Verona](https://www.univr.it/en/university)."
 - date: "Aug 9, 2025"
-  text: "1/2 papers accepted at ICCV 2026!"
+  text: "1/2 papers accepted at ICCV 2025!"
