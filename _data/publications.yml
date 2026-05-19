@@ -63,6 +63,14 @@ papers:
       - "[PDF](https://arxiv.org/abs/2502.08254){: .btn .btn--info}"
     classification:
       - MM-user
+  - title: "ToFu: Visual Tokens Reduction via Fusion for Multi-modal, Multi-patch, Multi-image Task"
+    authors: "V. Pippi, M. Guillaumin, S. Casciarelli, R. Cucchiara, M. Jaritz, **L. Bazzani**"
+    venue: "Arxiv, 2025"
+    teaser: tofu.png
+    links:
+      - "[PDF](https://arxiv.org/pdf/2503.04444){: .btn .btn--info}"
+    classification:
+      - MM-user
   - title: "ViewFusion: Towards Multi-View Consistency via Interpolated Denoising"
     authors: "X. Yang, Y. Zuo, S. Ramasinghe, **L. Bazzani**, G. Avraham, A. van den Hengel"
     venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
