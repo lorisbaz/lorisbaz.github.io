@@ -6,8 +6,9 @@ papers:
     teaser: refocus.png
     links:
       - "[Project](https://nsubedi11.github.io/refocus/){: .btn .btn--success}"
-      - "[PDF](TBA){: .btn .btn--info}"
+      - "[PDF](https://arxiv.org/abs/2604.24893){: .btn .btn--info}"
       - "[Code](TBA){: .btn .btn--warning}"
+      - "[Dataset](https://huggingface.co/datasets/nsubedi123/EM-QnF){: .btn .btn--inverse}"
     classification:
       - MM-user
   - title: "Multi-Level Conditioning by Pairing Localized Text and Sketch for Fashion Image Generation"
@@ -212,7 +213,7 @@ papers:
       - behave  
   - title: "Image and Video Understanding in Big Data"
     authors: "V. Murino, S. Gong, C. C. Loy and **L. Bazzani**"
-    venue: "Special Issue in CVIU, 2017."
+    venue: "Special Issue in CVIU, 2017"
     teaser: cviu-issue.gif
     links:
       - "[PDF](https://staff.ie.cuhk.edu.hk/~ccloy/cviu_si/files/cviu_si_editorial.pdf){: .btn .btn--info}"
