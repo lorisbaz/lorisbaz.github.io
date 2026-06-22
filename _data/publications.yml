@@ -2,15 +2,24 @@
 papers:
   - title: "Interactive Episodic Memory with User Feedback"
     authors: "N. Subedi, **L. Bazzani**, Z. Al-Halah"
-    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+    venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
     teaser: refocus.png
     links:
       - "[Project](https://nsubedi11.github.io/refocus/){: .btn .btn--success}"
       - "[PDF](https://arxiv.org/abs/2604.24893){: .btn .btn--info}"
-      - "[Code](TBA){: .btn .btn--warning}"
+      - "[Code (TBA)](TBA){: .btn .btn--warning}"
       - "[Dataset](https://huggingface.co/datasets/nsubedi123/EM-QnF){: .btn .btn--inverse}"
     classification:
       - MM-user
+  - title: "ProMoE-FL: Prototype-conditioned Mixture of Experts for Multimodal Federated Learning with Missing Modalities"
+    authors: "A. Chhetri, B. Niroula, E. Vasquez, Y. R. Shrestha, P. K. Gyawali, **L. Bazzani**, B. Bhattarai"
+    venue: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2026"
+    teaser: ProMoE-FL.png
+    links:
+      - "[PDF (TBA)](TBA){: .btn .btn--info}"
+      - "[Code (TBA)](TBA){: .btn .btn--warning}"
+    classification:
+      - MM-fed
   - title: "Multi-Level Conditioning by Pairing Localized Text and Sketch for Fashion Image Generation"
     authors: "Z. Liu, D. Talon, F. Girella, Z. Ruan, M. Mondo, **L. Bazzani**, Y. Wang, M. Cristani"
     venue: "Arxiv, 2026"
@@ -36,12 +45,12 @@ papers:
     links:
       - "[Project](https://benchmarking-interaction.github.io/){: .btn .btn--success}"
       - "[PDF](https://arxiv.org/pdf/2604.00265){: .btn .btn--info}"
-      - "[Code](TBA){: .btn .btn--warning}"
+      - "[Code (TBA)](TBA){: .btn .btn--warning}"
     classification:
       - MM-user
   - title: "Learning Visual Hierarchies in Hyperbolic Space for Image Retrieval"
     authors: "Z. Wang, S. Ramasinghe, C. Xu, J. Monteil, **L. Bazzani**, T. Ajanthan"
-    venue: "In International Conference on Computer Vision (ICCV), 2025"
+    venue: "International Conference on Computer Vision (ICCV), 2025"
     teaser: iccv2025.png
     links:
       - "[PDF](https://arxiv.org/abs/2411.17490){: .btn .btn--info}"
@@ -49,7 +58,7 @@ papers:
       - MM-user
   - title: "LatteCLIP: Unsupervised CLIP Fine-Tuning via LMM-Synthetic Texts"
     authors: "A. Cao, M. Jaritz, M. Guillaumin, R. de Charette, **L. Bazzani**"
-    venue: "In IEEE Winter Conference on Applications of Computer Vision (WACV), 2025"
+    venue: "IEEE Winter Conference on Applications of Computer Vision (WACV), 2025"
     teaser: wacv2025.png
     links:
       - "[PDF](https://arxiv.org/pdf/2410.08211){: .btn .btn--info}"
@@ -74,7 +83,7 @@ papers:
       - MM-user
   - title: "ViewFusion: Towards Multi-View Consistency via Interpolated Denoising"
     authors: "X. Yang, Y. Zuo, S. Ramasinghe, **L. Bazzani**, G. Avraham, A. van den Hengel"
-    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
+    venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
     teaser: cvpr2024.png
     links:
       - "[Project](https://wi-sc.github.io/ViewFusion.github.io/){: .btn .btn--success}"
@@ -84,7 +93,7 @@ papers:
       - MM-gen
   - title: "iEdit: Localised Text-guided Image Editing with Weak Supervision"
     authors: "R. Bodur, E. Gundogdu, B. Bhattarai, T-K Kim, M. Donoser, **L. Bazzani**"
-    venue: "In Computer Vision and Pattern Recognition (CVPR) Workshops, 2024"
+    venue: "Computer Vision and Pattern Recognition (CVPR) Workshops, 2024"
     teaser: iEdit.png
     links:
       - "[PDF](https://arxiv.org/abs/2305.05947){: .btn .btn--info}"
@@ -135,7 +144,7 @@ papers:
       - video
   - title: "Learning Attribute-driven Disentangled Representations for Interactive Fashion Retrieval"
     authors: "Y. Hou, E. Vig, M. Donoser, **L. Bazzani**"
-    venue: "In International Conference on Computer Vision (ICCV), 2021"
+    venue: "International Conference on Computer Vision (ICCV), 2021"
     teaser: iccv2021.png
     links:
           - "[PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Hou_Learning_Attribute-Driven_Disentangled_Representations_for_Interactive_Fashion_Retrieval_ICCV_2021_paper.pdf){: .btn .btn--info}"
@@ -147,13 +156,13 @@ papers:
       - "[PDF](https://www.amazon.science/publications/revamping-cross-modal-recipe-retrieval-with-hierarchical-transformers-and-self-supervised-learning){: .btn .btn--info}"
       - "[Code](https://github.com/amzn/image-to-recipe-transformers){: .btn .btn--warning}"
     authors: "A. Salvador, E. Gundogdu, **L. Bazzani**, M. Donoser"
-    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021"
+    venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021"
     teaser: cvpr2021.png
     classification:
       - MM-user
   - title: "Localized Triplet Loss for Fine-Grained Fashion Image Retrieval"
     authors: "A. D'Innocente, N. Garg, Y. Zhang, **L. Bazzani**, M. Donoser"
-    venue: "In Computer Vision and Pattern Recognition (CVPR) Workshops, 2021"
+    venue: "Computer Vision and Pattern Recognition (CVPR) Workshops, 2021"
     teaser: wCVPR2021.png
     links:
       - "[PDF](https://openaccess.thecvf.com/content/CVPR2021W/CVFAD/papers/DInnocente_Localized_Triplet_Loss_for_Fine-Grained_Fashion_Image_Retrieval_CVPRW_2021_paper.pdf){: .btn .btn--info}"
@@ -161,7 +170,7 @@ papers:
       - MM-user
   - title: "Learning Joint Visual Semantic Matching Embeddings for Language-guided Retrieval"
     authors: "Y. Chen, **L. Bazzani**"
-    venue: "In European Conference on Computer Vision (ECCV), 2020"
+    venue: "European Conference on Computer Vision (ECCV), 2020"
     teaser: eccv2020.png
     links:
       - "[PDF](https://assets.amazon.science/5b/db/440af26349adb83c77c85cd11922/learning-joint-visual-semantic-matching-embeddings-for-text-guided-retrieval.pdf){: .btn .btn--info}"
@@ -169,7 +178,7 @@ papers:
       - MM-user
   - title: "Image Search with Text Feedback by Visiolinguistic Attention Learning"
     authors: "Y. Chen, S. Gong, **L. Bazzani**"
-    venue: " In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020"
+    venue: " IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020"
     teaser: cvpr2020.png
     links:
       - "[Project](https://www.amazon.science/blog/how-computer-vision-will-help-amazon-customers-shop-online){: .btn .btn--success}"
@@ -221,7 +230,7 @@ papers:
       - video  
   - title: "Approximate Log-Hilbert-Schmidt Distances Between Covariance Operators for Image Classification"
     authors: "H. Q. Minh, M. San Biagio, **L. Bazzani**, V. Murino"
-    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
+    venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
     teaser: covars.png
     links:
       - "[PDF](/papers/proceedings/Minhetal_CVPR16.pdf){: .btn .btn--info}"
@@ -229,7 +238,7 @@ papers:
       - struct
   - title: "Self-taught Object Localization with Deep Networks"
     authors: "**L. Bazzani**, A. Bergamo, D. Anguelov, L. Torresani"
-    venue: "In IEEE Winter Conference on Applications of Computer Vision (WACV), 2016"
+    venue: "IEEE Winter Conference on Applications of Computer Vision (WACV), 2016"
     teaser: STL.png
     links:
       - "[Project](/STL.html){: .btn .btn--success}"
@@ -278,7 +287,7 @@ papers:
       - reid
   - title: "Weighted Bag of Visual Words for Object Recognition"
     authors: "**L. Bazzani**<sup>*</sup>, M. San Biagio<sup>*</sup>, M. Cristani, V. Murino"
-    venue: "In IEEE International Conference on Image Processing (ICIP), 2014"
+    venue: "IEEE International Conference on Image Processing (ICIP), 2014"
     teaser: wBOF_ICIP.png
     links:
       - "[PDF](/papers/proceedings/SanBiagioetal_ICIP14.pdf){: .btn .btn--info}"
@@ -296,7 +305,7 @@ papers:
       - struct
   - title: "Semi-Supervised Multi-Feature Learning for Person Re-Identification"
     authors: "D. Figueira, **L. Bazzani**, H.Q. Minh, M. Cristani, A. Bernardino, V. Murino"
-    venue: "In International Conference on Advanced Video and Signal-based Surveillance (AVSS), 2013"
+    venue: "International Conference on Advanced Video and Signal-based Surveillance (AVSS), 2013"
     teaser: MVL_AVSS.png
     links:
       - "[PDF](/papers/proceedings/Figueiraetal_AVSS13.pdf){: .btn .btn--info}"
@@ -304,7 +313,7 @@ papers:
       - reid
   - title: "Person Re-Identification with a PTZ Camera: An Introductory Study"
     authors: "P. Salvagnini,  **L. Bazzani**, M. Cristani, V. Murino"
-    venue: "In International Conference on Image Processing (ICIP), 2013"
+    venue: "International Conference on Image Processing (ICIP), 2013"
     teaser: PTZ_ICIP.png
     links:
       - "[PDF](/papers/proceedings/Salvagninietal_ICIP13.pdf){: .btn .btn--info}"
@@ -334,7 +343,7 @@ papers:
       - behave  
   - title: "Decentralized Particle Filter for Joint Individual-Group Tracking"
     authors: "**L. Bazzani**, M. Cristani, V. Murino"
-    venue: "In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012"
+    venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012"
     teaser: DPF_CVPR.png
     links:
       - "[PDF](/papers/proceedings/Bazzanietal_CVPR12.pdf){: .btn .btn--info}"
@@ -356,7 +365,7 @@ papers:
       - video   
   - title: "Re-Identification with RGB-D Sensors"
     authors: "B. I. Barbosa, M. Cristani, A. Del Bue, **L. Bazzani**, V. Murino"
-    venue: "In 1st International Workshop on Re-Identification, 2012"
+    venue: "European Conference on Computer Vision (ECCV) Workshops, 2012"
     teaser: RGBD_wECCV.png
     links:
       - "[PDF](/papers/proceedings/Barbosaetal_REID12.pdf){: .btn .btn--info}"
@@ -365,7 +374,7 @@ papers:
       - reid
   - title: "Online Bayesian Non-Parametrics for Social Group Detection"
     authors: "M. Zanotto, **L. Bazzani**, M. Cristani, V. Murino"
-    venue: "In British Machine Vision Conference (BMVC), 2012"
+    venue: "British Machine Vision Conference (BMVC), 2012"
     teaser: NPB_BMVC.png
     links:
       - "[PDF](/papers/proceedings/Zanottoetal_BMVC12.pdf){: .btn .btn--info}"
@@ -404,7 +413,7 @@ papers:
       - video
   - title: "Custom Pictorial Structures for Re-Identification"
     authors: "D. S. Cheng, M. Cristani, M. Stoppa, **L. Bazzani**, V. Murino"
-    venue: "In British Machine Vision Conference (BMVC), 2011"
+    venue: "British Machine Vision Conference (BMVC), 2011"
     teaser: CPS_BMVC.png
     links:
       - "[Project](/caviar4reid.html){: .btn .btn--success}"
@@ -415,7 +424,7 @@ papers:
       - reid
   - title: "Social Interaction Discovery by Statistical Analysis of F-Formations"
     authors: "M. Cristani, **L. Bazzani**, G. Pagetti, A. Fossati, D. Tosato, A. Del Bue, G. Menegaz, V. Murino"
-    venue: "In British Machine Vision Conference (BMVC), 2011 "
+    venue: "British Machine Vision Conference (BMVC), 2011 "
     teaser: FF_BMVC.png
     links:
       - "[Project](http://profs.sci.univr.it/~cristanm/ssp/){: .btn .btn--success}"
@@ -425,7 +434,7 @@ papers:
       - behave  
   - title: "Towards Computational Proxemics: Inferring Social Relations from Interpersonal Distances"
     authors: "M. Cristani, G. Pagetti, A. Vinciarelli, **L. Bazzani**, G. Menegaz, V. Murino"
-    venue: "In International Conference on Social Computing (SocialCom), 2011"
+    venue: "International Conference on Social Computing (SocialCom), 2011"
     teaser: FFGauss_SCOM.png
     links:
       - "[PDF](/papers/proceedings/Cristanietal_SCOM11.pdf){: .btn .btn--info}"
@@ -433,7 +442,7 @@ papers:
       - behave  
   - title: "Multiple-Shot Person Re-Identification by HPE Signature"
     authors: "**L. Bazzani**, M. Cristani, A. Perina, M. Farenzena, V. Murino"
-    venue: "In International Conference on Pattern Recognition (ICPR), 2010"
+    venue: "International Conference on Pattern Recognition (ICPR), 2010"
     teaser: AHPE_PRL.png
     links:
       - "[PDF](/papers/proceedings/BazzaniIetalCPR2010.pdf){: .btn .btn--info}"
@@ -441,7 +450,7 @@ papers:
       - reid
   - title: "Person Re-Identification by Symmetry-Driven Accumulation of Local Features"
     authors: "M. Farenzena, **L. Bazzani**, A. Perina, M. Cristani, V. Murino"
-    venue: "In Conference on Computer Vision and Pattern Recognition (CVPR), 2010"
+    venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2010"
     teaser: SDALF_CVPR.png
     links:
       - "[Project](/sdalf.html){: .btn .btn--success}"
@@ -452,7 +461,7 @@ papers:
       - reid
   - title: "Collaborative Particle Filters for Group Tracking"
     authors: "**L. Bazzani**, M. Cristani, V. Murino"
-    venue: "In International Conference on Image Processing (ICIP), 2010 "
+    venue: "International Conference on Image Processing (ICIP), 2010 "
     teaser: COPF_ICIP.png
     links:
       - "[PDF](/papers/proceedings/BazzanietalICIP10.pdf){: .btn .btn--info}"

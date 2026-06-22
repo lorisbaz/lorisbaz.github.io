@@ -1,6 +1,8 @@
 main:
-# - date: "Jun XX, 2026"
-#   text: "Invited speaker at the summer school at the [Zhejiang Normal University](https://www.zjnu.edu.cn/english/main.htm). Thanks [Marcello](https://www.dsi.unive.it/~pelillo/)!"
+- date: "Jun 22, 2026"
+  text: "Invited speaker at the 2026 summer school on Advanced Topics in AI at the [Zhejiang Normal University](https://www.zjnu.edu.cn/english/main.htm). Thanks [Marcello](https://www.dsi.unive.it/~pelillo/)!"
+- date: "Jun 12, 2026"
+  text: "1/1 papers accepted at MICCAI 2026!"
 - date: "May 21, 2026"
   text: "Call for paper of the workshop on [Human-AI Co-Creation](https://human-ai-co-creation.github.io/workshop/) at [ECCV 2026](https://eccv.ecva.net/)."
 - date: "May 19, 2026"
