@@ -16,8 +16,8 @@ papers:
     venue: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2026"
     teaser: ProMoE-FL.png
     links:
-      - "[PDF (TBA)](TBA){: .btn .btn--info}"
-      - "[Code (TBA)](TBA){: .btn .btn--warning}"
+      - "[PDF](https://arxiv.org/abs/2607.06633){: .btn .btn--info}"
+      - "[Code](https://github.com/bhattarailab/ProMoE-FL){: .btn .btn--warning}"
     classification:
       - MM-fed
   - title: "Multi-Level Conditioning by Pairing Localized Text and Sketch for Fashion Image Generation"
