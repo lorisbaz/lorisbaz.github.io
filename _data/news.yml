@@ -1,4 +1,6 @@
 main:
+- date: "Aug 9, 2026"
+  text: "1/1 papers accepted at BMVC 2026!"
 - date: "Jun 22, 2026"
   text: "Invited speaker at the [2026 summer school on Advanced Topics in AI](https://at-ai-zjnu-summerschool.github.io/) at the [Zhejiang Normal University](https://www.zjnu.edu.cn/english/main.htm). Thanks [Marcello](https://www.dsi.unive.it/~pelillo/)!"
 - date: "Jun 12, 2026"
